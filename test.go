@@ -13,6 +13,7 @@ func main() {
 	MainWindow{
 		Title:   "SCREAMO",
 		MinSize: Size{600, 400},
+		Size:    Size{600, 400},
 		Layout:  VBox{},
 		Children: []Widget{
 			HSplitter{
